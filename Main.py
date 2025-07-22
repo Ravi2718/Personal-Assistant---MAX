@@ -22,7 +22,7 @@ engine.setProperty('voice', engine.getProperty('voices')[1].id)  # Female voice
 recognizer = sr.Recognizer()
 
 # WolframAlpha client
-client = wolframalpha.Client('LRWJW6-436RP7LH87')
+client = wolframalpha.Client('YOUR_ID')
 
 # Function to speak text
 def speak(text):
